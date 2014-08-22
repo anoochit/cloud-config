@@ -1,2 +1,8 @@
+#cloud-config
+
+hostname: core01
+users:
+  - name: core
+    passwd: $1$wgmHU9nF$P9utc0nWT/xkDadyy7YbP/
 ssh_authorized_keys:
   - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDFAzoYz6w6deCiaMalpZUkxVXWDw18NlxknIKlLeqkiWk5UW9mRhQ4ysRlKX5TVXnHUYFaW+DOmCkTYSKMDb4uuuH6W93B6rIKOzZeccAJOV8s0xCzfljMSpOjfM07kSalszzJe62Oy79XYPWvXFhyn05Z7E6pRry1gsz7DGIOZDmZP82DSyMk8Fk9Tdl9HJrgdvxfgOlqgondtaWKCk2cHxh1FycV1smz6xTZdPs4KdFahfyQy6HeHF/6wEfN6AX+ONZ9WTqNHLMY2arAfBUY780CrZtGhhCNL01jHdSzv4GZ+glZvPftC8OF8K7bonq+DUfHelFBsB8+Yt4blzlZ
