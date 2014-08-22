@@ -1,6 +1,12 @@
 #cloud-config
 
 hostname: core01
+
+coreos:
+  units:
+    - service: docker.service
+      command: start
+
 users:
   - name: core
     passwd: $1$wgmHU9nF$P9utc0nWT/xkDadyy7YbP/
